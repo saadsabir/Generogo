@@ -1,0 +1,38 @@
+
+Issues est la liste des tickets : 
+
+- pour récupérer la version fix : issues.fields.fixVersions.name (1.0.0,2.0.0,…)
+
+- pour la version : issues.fields.versions.name
+
+- pour la résolution : issues.fields.resolution.name (Résolue, abandonnée,terminé )
+  ou bien : issues.fields.status.name
+!!!ce qui nous interresse c’est l’etat (fermer, resolue,..)
+
+- pour la priorité (voir la severite pour les qa) : issues.fields.priority.name (1.Bloquant, 2.Majeur, 3.Normal, 4.Mineur)
+
+- pour les components : issues.fields.components (mac, pc)
+
+- pour le type de demande : issues.fields.issuetype.name (anomalie, anomalie interne, amelioration technique, amélioration, amélioration interne, nouveauté, nouveauté interne)
+
+- pour le projet : issues.fields.project.id / project.name
+
+Dans les issues, chercher dans chaque fields
+
+1/ les projets sélectionnés = nomFichier.json
+
+2/ les versions sélectionnées = nomFichier.json -> issues -> fields -> fixVersions -> name
+
+ou bien nomFichier.json -> issues -> fields -> versions -> name ("1.5.0")
+
+3/ les composants sélectionnés = nomFichier.json -> issues -> fields -> components -> name ("MAC")
+
+Si projets && versions && composants exist dans le fields, récupérer les données suivantes : 
+
+1/ Noms du projet : nomFichier.json -> issues -> fields -> project -> name
+
+2/ Versions du Projet : nomFichier.json -> issues -> fields -> fixVersions -> name ou bien nomFichier.json -> issues -> fields -> versions -> name ("1.5.0")
+
+3/ Composants du projet : nomFichier.json -> issues -> fields -> components -> name ("MAC")
+
+4/ 

@@ -1,0 +1,1 @@
+Pour récupérer le components (Composants) => Chercher dans la fiche du projets, dans components : name (ex: name="PC", name="MAC")

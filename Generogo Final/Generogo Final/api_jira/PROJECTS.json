@@ -1,0 +1,116 @@
+[
+  {
+      "expand": "description,lead,url,projectKeys",
+      "self": "https://jira.oodrive.net/rest/api/2/project/12655",
+      "id": "12655",
+      "key": "POSTF",
+      "name": "Postfiles V5",
+      "avatarUrls": {
+        "48x48": "https://jira.oodrive.net/secure/projectavatar?pid=12655&avatarId=12031",
+        "24x24": "https://jira.oodrive.net/secure/projectavatar?size=small&pid=12655&avatarId=12031",
+        "16x16": "https://jira.oodrive.net/secure/projectavatar?size=xsmall&pid=12655&avatarId=12031",
+        "32x32": "https://jira.oodrive.net/secure/projectavatar?size=medium&pid=12655&avatarId=12031"
+      },
+      "projectCategory": {
+        "self": "https://jira.oodrive.net/rest/api/2/projectCategory/10040",
+        "id": "10040",
+        "name": "Partage",
+        "description": "les projets liés à easyshare"
+      },
+      "projectTypeKey": "software"
+  },
+  {
+      "expand": "description,lead,url,projectKeys",
+      "self": "https://jira.oodrive.net/rest/api/2/project/13756",
+      "id": "13756",
+      "key": "POSTFR",
+      "name": "Postfiles-Web",
+      "avatarUrls": {
+        "48x48": "https://jira.oodrive.net/secure/projectavatar?pid=13756&avatarId=14823",
+        "24x24": "https://jira.oodrive.net/secure/projectavatar?size=small&pid=13756&avatarId=14823",
+        "16x16": "https://jira.oodrive.net/secure/projectavatar?size=xsmall&pid=13756&avatarId=14823",
+        "32x32": "https://jira.oodrive.net/secure/projectavatar?size=medium&pid=13756&avatarId=14823"
+      },
+      "projectCategory": {
+        "self": "https://jira.oodrive.net/rest/api/2/projectCategory/10680",
+        "id": "10680",
+        "name": "Clients Web",
+        "description": "Projets clients web Oodrive"
+      },
+      "projectTypeKey": "software"
+  },
+  {
+      "expand": "description,lead,url,projectKeys",
+      "self": "https://jira.oodrive.net/rest/api/2/project/13765",
+      "id": "13765",
+      "key": "BOAR",
+      "name": "Boardnox",
+      "avatarUrls": {
+        "48x48": "https://jira.oodrive.net/secure/projectavatar?pid=13765&avatarId=13651",
+        "24x24": "https://jira.oodrive.net/secure/projectavatar?size=small&pid=13765&avatarId=13651",
+        "16x16": "https://jira.oodrive.net/secure/projectavatar?size=xsmall&pid=13765&avatarId=13651",
+        "32x32": "https://jira.oodrive.net/secure/projectavatar?size=medium&pid=13765&avatarId=13651"
+      },
+      "projectTypeKey": "software"
+  },
+  {
+      "expand": "description,lead,url,projectKeys",
+      "self": "https://jira.oodrive.net/rest/api/2/project/13757",
+      "id": "13757",
+      "key": "BOARFR",
+      "name": "Boardnox-Web",
+      "avatarUrls": {
+        "48x48": "https://jira.oodrive.net/secure/projectavatar?pid=13757&avatarId=10011",
+        "24x24": "https://jira.oodrive.net/secure/projectavatar?size=small&pid=13757&avatarId=10011",
+        "16x16": "https://jira.oodrive.net/secure/projectavatar?size=xsmall&pid=13757&avatarId=10011",
+        "32x32": "https://jira.oodrive.net/secure/projectavatar?size=medium&pid=13757&avatarId=10011"
+      },
+      "projectCategory": {
+        "self": "https://jira.oodrive.net/rest/api/2/projectCategory/10680",
+        "id": "10680",
+        "name": "Clients Web",
+        "description": "Projets clients web Oodrive"
+      },
+      "projectTypeKey": "software"
+  },
+  {
+      "expand": "description,lead,url,projectKeys",
+      "self": "https://jira.oodrive.net/rest/api/2/project/13452",
+      "id": "13452",
+      "key": "EASYTXMGR",
+      "name": "Easy Transfer Manager",
+      "avatarUrls": {
+      "48x48": "https://jira.oodrive.net/secure/projectavatar?pid=13452&avatarId=10011",
+      "24x24": "https://jira.oodrive.net/secure/projectavatar?size=small&pid=13452&avatarId=10011",
+      "16x16": "https://jira.oodrive.net/secure/projectavatar?size=xsmall&pid=13452&avatarId=10011",
+      "32x32": "https://jira.oodrive.net/secure/projectavatar?size=medium&pid=13452&avatarId=10011"
+      },
+      "projectCategory": {
+      "self": "https://jira.oodrive.net/rest/api/2/projectCategory/10380",
+      "id": "10380",
+      "name": "Clients Lourds Easyshare",
+      "description": "Clients Lourds Easyshare"
+      },
+      "projectTypeKey": "software"
+  },
+  {
+      "expand": "description,lead,url,projectKeys",
+      "self": "https://jira.oodrive.net/rest/api/2/project/12656",
+      "id": "12656",
+      "key": "WEBSYNPROB",
+      "name": "WebSynchro Pro 2",
+      "avatarUrls": {
+        "48x48": "https://jira.oodrive.net/secure/projectavatar?pid=12656&avatarId=10011",
+        "24x24": "https://jira.oodrive.net/secure/projectavatar?size=small&pid=12656&avatarId=10011",
+        "16x16": "https://jira.oodrive.net/secure/projectavatar?size=xsmall&pid=12656&avatarId=10011",
+        "32x32": "https://jira.oodrive.net/secure/projectavatar?size=medium&pid=12656&avatarId=10011"
+      },
+      "projectCategory": {
+        "self": "https://jira.oodrive.net/rest/api/2/projectCategory/10380",
+        "id": "10380",
+        "name": "Clients Lourds Easyshare",
+        "description": "Clients Lourds Easyshare"
+      },
+      "projectTypeKey": "software"
+  }
+]

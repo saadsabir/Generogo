@@ -1,0 +1,63 @@
+{
+  "expand":"description,lead,url,projectKeys","self":"https://jira.oodrive.net/rest/api/2/project/13756","id":"13756","key":"POSTFR","description":"","lead":
+  {"self":"https://jira.oodrive.net/rest/api/2/user?username=j.gotti","key":"j.gotti","name":"j.gotti","avatarUrls":
+  {"16x16":"https://jira.oodrive.net/secure/useravatar?size=xsmall&ownerId=j.gotti&avatarId=12224","24x24":"https://jira.oodrive.net/secure/useravatar?size=small&ownerId=j.gotti&avatarId=12224","32x32":"https://jira.oodrive.net/secure/useravatar?size=medium&ownerId=j.gotti&avatarId=12224","48x48":"https://jira.oodrive.net/secure/useravatar?ownerId=j.gotti&avatarId=12224"},
+  "displayName":"Jonathan Gotti","active":true},
+  "components":
+  [
+    {"self":"https://jira.oodrive.net/rest/api/2/component/14742","id":"14742","name":"Lock","isAssigneeTypeValid":false},
+    {"self":"https://jira.oodrive.net/rest/api/2/component/14733","id":"14733","name":"Performance","isAssigneeTypeValid":false},
+    {"self":"https://jira.oodrive.net/rest/api/2/component/15724","id":"15724","name":"Responsive","isAssigneeTypeValid":false},{"self":"https://jira.oodrive.net/rest/api/2/component/15935","id":"15935","name":"Sécurité","isAssigneeTypeValid":false},
+    {"self":"https://jira.oodrive.net/rest/api/2/component/15725","id":"15725","name":"UX","isAssigneeTypeValid":false}
+    ],
+    "issueTypes":
+    [
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/25","id":"25","description":"gh.issue.epic.desc","iconUrl":"https://jira.oodrive.net/images/icons/issuetypes/epic.png","name":"Épopée","subtask":false},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/24","id":"24","description":"Nouveauté, nouvelle fonction ou nouveau module","iconUrl":"https://jira.oodrive.net/images/icons/issuetypes/health.png","name":"Nouveauté","subtask":false},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/23","id":"23","description":"Amélioration des fonctionalités existantes ","iconUrl":"https://jira.oodrive.net/secure/viewavatar?size=xsmall&avatarId=14730&avatarType=issuetype","name":"Amélioration","subtask":false,"avatarId":14730},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/1","id":"1","description":"Bug ou dysfonctionnement détecté en externe","iconUrl":"https://jira.oodrive.net/images/icons/bug.png","name":"Anomalie","subtask":false},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/17","id":"17","description":"Débogage d'application en recette interne","iconUrl":"https://jira.oodrive.net/images/icons/bug_delete.png","name":"Anomalie interne","subtask":false},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/42","id":"42","description":"Amélioration non fonctionnelle, pas d'impact client visible, à la discrétion des chefs de pôle","iconUrl":"https://jira.oodrive.net/images/icons/wrench.png","name":"Amélioration technique","subtask":false},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/27","id":"27","description":"Une tâche technique.","iconUrl":"https://jira.oodrive.net/images/icons/issuetypes/task_agile.png","name":"Tâche technique","subtask":true},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/28","id":"28","description":"un ensemble de nouvelles fonctionnalités","iconUrl":"https://jira.oodrive.net/secure/viewavatar?size=xsmall&avatarId=14734&avatarType=issuetype","name":"Thème - nouveauté","subtask":false,"avatarId":14734},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/48","id":"48","description":"","iconUrl":"https://jira.oodrive.net/images/icons/issuetypes/documentation.png","name":"Documentation technique","subtask":false},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/29","id":"29","description":"Anomalie sur une évolution sous forme de sous-tâche","iconUrl":"https://jira.oodrive.net/images/icons/issuetypes/exclamation.png","name":"Anomalie ST","subtask":true},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/30","id":"30","description":"","iconUrl":"https://jira.oodrive.net/images/icons/emoticon_waii.png","name":"Projet","subtask":false},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/31","id":"31","description":"","iconUrl":"https://jira.oodrive.net/images/icons/basket.png","name":"Specification","subtask":true},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/32","id":"32","description":"","iconUrl":"https://jira.oodrive.net/images/icons/money_dollar.png","name":"Chiffrage","subtask":true},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/37","id":"37","description":"Documentation","iconUrl":"https://jira.oodrive.net/images/icons/issuetypes/documentation.png","name":"Documentation-ST","subtask":true},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/34","id":"34","description":"","iconUrl":"https://jira.oodrive.net/images/icons/zoom.png","name":"Tests","subtask":true},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/35","id":"35","description":"","iconUrl":"https://jira.oodrive.net/images/icons/heart.png","name":"Validation","subtask":true},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/38","id":"38","description":"","iconUrl":"https://jira.oodrive.net/images/icons/lorry.png","name":"Déploiement","subtask":true},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/45","id":"45","description":"This Issue Type is used to create Zephyr Test within Jira.","iconUrl":"https://jira.oodrive.net/download/resources/com.thed.zephyr.je/images/icons/ico_zephyr_issuetype.png","name":"Test","subtask":false},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/49","id":"49","description":"","iconUrl":"https://jira.oodrive.net/images/icons/heart.png","name":"Nouveauté interne","subtask":false},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/50","id":"50","description":"","iconUrl":"https://jira.oodrive.net/secure/viewavatar?size=xsmall&avatarId=14731&avatarType=issuetype","name":"Amélioration interne","subtask":false,"avatarId":14731},
+      {"self":"https://jira.oodrive.net/rest/api/2/issuetype/61","id":"61","description":"Auto","iconUrl":"https://jira.oodrive.net/images/icons/issuetypes/defect.png","name":"Auto","subtask":false}
+      ],
+      "assigneeType":"UNASSIGNED","versions":
+      [
+        {"self":"https://jira.oodrive.net/rest/api/2/version/18624","id":"18624","name":"0.0.5","archived":false,"released":true,"startDate":"2015-10-20","releaseDate":"2016-01-29","userStartDate":"20/10/15","userReleaseDate":"29/01/16","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/18625","id":"18625","name":"0.0.6","archived":false,"released":true,"startDate":"2015-11-18","releaseDate":"2016-02-17","userStartDate":"18/11/15","userReleaseDate":"17/02/16","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/18636","id":"18636","name":"0.0.5.1","archived":false,"released":true,"startDate":"2016-01-25","releaseDate":"2016-01-29","userStartDate":"25/01/16","userReleaseDate":"29/01/16","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/18662","id":"18662","name":"0.0.7","archived":false,"released":true,"startDate":"2016-02-15","releaseDate":"2016-03-31","userStartDate":"15/02/16","userReleaseDate":"31/03/16","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/18756","id":"18756","name":"0.0.8","archived":false,"released":true,"startDate":"2016-03-08","releaseDate":"2016-04-29","userStartDate":"08/03/16","userReleaseDate":"29/04/16","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/18948","id":"18948","name":"0.0.9","archived":false,"released":true,"startDate":"2016-04-13","releaseDate":"2016-06-02","userStartDate":"13/04/16","userReleaseDate":"02/06/16","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/19024","id":"19024","name":"0.0.10","archived":false,"released":true,"startDate":"2016-05-18","releaseDate":"2016-05-30","userStartDate":"18/05/16","userReleaseDate":"30/05/16","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/19048","id":"19048","name":"0.0.11","archived":false,"released":true,"releaseDate":"2016-06-28","userReleaseDate":"28/06/16","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/19079","id":"19079","name":"0.1.0","archived":false,"released":true,"startDate":"2016-07-18","releaseDate":"2016-09-28","userStartDate":"18/07/16","userReleaseDate":"28/09/16","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/19121","id":"19121","name":"0.2.0","archived":false,"released":true,"startDate":"2016-08-18","releaseDate":"2017-01-03","userStartDate":"18/08/16","userReleaseDate":"03/01/17","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/19623","id":"19623","name":"1.0.0","archived":false,"released":true,"startDate":"2016-09-16","releaseDate":"2017-01-03","userStartDate":"16/09/16","userReleaseDate":"03/01/17","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/19626","id":"19626","name":"0.2.0-maintenance","archived":false,"released":true,"releaseDate":"2017-01-03","userReleaseDate":"03/01/17","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/20022","id":"20022","name":"1.1.0","archived":false,"released":true,"startDate":"2016-10-31","releaseDate":"2016-12-22","userStartDate":"31/10/16","userReleaseDate":"22/12/16","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/20147","id":"20147","name":"1.1-maintenance","archived":false,"released":false,"releaseDate":"2017-01-03","overdue":true,"userReleaseDate":"03/01/17","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/20146","id":"20146","name":"1.2.0","archived":false,"released":false,"startDate":"2016-12-06","releaseDate":"2017-01-30","overdue":true,"userStartDate":"06/12/16","userReleaseDate":"30/01/17","projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/20342","id":"20342","name":"1.3.0","archived":false,"released":false,"projectId":13756},
+        {"self":"https://jira.oodrive.net/rest/api/2/version/20343","id":"20343","name":"1.2-maintenance","archived":false,"released":false,"projectId":13756}
+        ],
+        "name":"Postfiles-Web","roles":
+        {"Developpeur observateur":"https://jira.oodrive.net/rest/api/2/project/13756/role/10020","Developers":"https://jira.oodrive.net/rest/api/2/project/13756/role/10001","Observateur interne du projet":"https://jira.oodrive.net/rest/api/2/project/13756/role/10008","project-reports-viewer":"https://jira.oodrive.net/rest/api/2/project/13756/role/10010","Client interne":"https://jira.oodrive.net/rest/api/2/project/13756/role/10003","Administrators":"https://jira.oodrive.net/rest/api/2/project/13756/role/10002","Membre du projet":"https://jira.oodrive.net/rest/api/2/project/13756/role/10006","Users":"https://jira.oodrive.net/rest/api/2/project/13756/role/10000","Responsable test projet":"https://jira.oodrive.net/rest/api/2/project/13756/role/10007","Client externe":"https://jira.oodrive.net/rest/api/2/project/13756/role/10009","Responsable projet":"https://jira.oodrive.net/rest/api/2/project/13756/role/10005","Tempo Project Managers":"https://jira.oodrive.net/rest/api/2/project/13756/role/10030"},
+        "avatarUrls":{"48x48":"https://jira.oodrive.net/secure/projectavatar?pid=13756&avatarId=14823","24x24":"https://jira.oodrive.net/secure/projectavatar?size=small&pid=13756&avatarId=14823","16x16":"https://jira.oodrive.net/secure/projectavatar?size=xsmall&pid=13756&avatarId=14823","32x32":"https://jira.oodrive.net/secure/projectavatar?size=medium&pid=13756&avatarId=14823"},
+        "projectCategory":
+        {"self":"https://jira.oodrive.net/rest/api/2/projectCategory/10680","id":"10680","name":"Clients Web","description":"Projets clients web Oodrive"},
+        "projectTypeKey":"software"
+      }

@@ -1,0 +1,179 @@
+body{
+  background-color: #756E70 !important;
+}
+#goform{
+  width: auto;
+  margin: 50px auto;
+  position: relative;
+}
+#goform fieldset{
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+
+}
+/*Cacher tous les fieldsets sauf le premier*/
+#goform fieldset:not(:first-of-type){
+  display: none;
+}
+/*inputs*/
+#goform label, #goform textarea{
+  margin-top: 10px;
+}
+#goform .btn-success{
+  	background: #1B5C93 !important;
+    border-color: white;
+}
+
+/*progressbar*/
+#progressbar{
+  margin-left: -20px;
+  margin-bottom: 30px;
+  overflow:  : hidden;
+  counter-reset: step;
+  text-align: center;
+}
+#progressbar li {
+  margin-bottom: 13px;
+  text-align: center;
+  list-style-type: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: inherit;
+  font-style: oblique;
+  width: 33.33%;
+  float: left;
+  position: relative;
+}
+#progressbar li:before{
+  content: counter(step);
+  counter-increment: step;
+  width: 20px;
+  line-height: 20px;
+  display: block;
+  font-size: 10px;
+  color: #333;
+  background: white;
+  border-radius: 3px;
+  margin : 0 auto 5px auto;
+}
+/*progressbar connexion*/
+#progressbar li:after{
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: -50%;
+  top: 9px;
+  z-index: -1; //indice
+}
+#progressbar li:first-child::after{
+  /*pas de connexion pour la première étape*/
+  content: none;
+}
+/*Etape Active/Complete en bleu, le numero aussi*/
+#progressbar li.active:before, #progressbar li.active:after{
+  background: #1B5C93;
+  color : white;
+}
+.infoMsg
+{
+  margin: 0 0 2px;
+  font-size: 12px;
+  font-family: serif;
+  color: firebrick;
+}
+.oodrive
+{
+  font-size: 50px;
+  margin-top: auto;
+  color: #295F8F;
+  font-family: sans-serif;
+}
+.title1
+{
+  font-family: serif;
+  font-size: 24px;
+  color: #295F8F;
+}
+.title2
+{
+  font-family: serif;
+  font-size: 23px;
+}
+.title3
+{
+  margin: 15px 0px -1px 0px;
+  font-size: 16px;
+  font-family: serif;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.title4
+{
+  margin: 15px 0px -1px 0px;
+  font-family: serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.title5
+{
+  color : grey;
+  font-family: serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+#goTypePicture
+{
+  float: right;
+}
+.textboxCol
+{
+  margin-top: 7px;
+}
+.quality_index
+{
+  color: #756E70;
+  font-size: 11;
+  font-weight: normal;
+}
+#indiceQualite,#indiceQualite2
+{
+  color: #295F8F;
+  font-weight: normal;
+  text-decoration: underline;
+  margin-left:10;
+}
+.inline
+{
+  display: inline;
+}
+.features
+{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+.border-col
+{
+  border-right: solid 1px;
+}
+.backlog
+{
+  text-align: center;
+}
+.h4
+{
+  font-size: 27px !important;
+  text-align: center !important;
+  border-bottom: solid 1px !important;
+  color:#295F8F !important;
+  margin-bottom: 12px !important;
+}

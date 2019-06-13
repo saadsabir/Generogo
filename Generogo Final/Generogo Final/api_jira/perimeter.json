@@ -1,0 +1,82 @@
+[
+  {
+    "id" : 1,
+    "name" : "Google Chrome",
+    "type" : "Navigateur"
+  },
+  {
+    "id" : 2,
+    "name" : "Firefox",
+    "type" : "Navigateur"
+  },
+  {
+    "id" : 3,
+    "name" : "Internet Explorer",
+    "type" : "Navigateur"
+  },
+  {
+    "id" : 4,
+    "name" : "Opera",
+    "type" : "Navigateur"
+  },
+  {
+    "id" : 5,
+    "name" : "Safari",
+    "type" : "Navigateur"
+  },
+  {
+    "id" : 6,
+    "name" : "Windows",
+    "type" : "Système d'exploitation"
+  },
+  {
+    "id" : 7,
+    "name" : "Windows Phone",
+    "type" : "Système d'exploitation"
+  },
+  {
+    "id" : 8,
+    "name" : "Mac OS",
+    "type" : "Système d'exploitation"
+  },
+  {
+    "id" : 9,
+    "name" : "iOS",
+    "type" : "Système d'exploitation"
+  },
+  {
+    "id" : 10,
+    "name" : "Android",
+    "type" : "Système d'exploitation"
+  },
+  {
+    "id" : 11,
+    "name" : "BlackBerry OS",
+    "type" : "Système d'exploitation"
+  },
+  {
+    "id" : 12,
+    "name" : "Linux",
+    "type" : "Système d'exploitation"
+  },
+  {
+    "id" : 13,
+    "name" : "Machine physique",
+    "type" : "Type de machine"
+  },
+  {
+    "id" : 14,
+    "name" : "Machine virtuelle",
+    "type" : "Type de machine"
+  },
+  {
+    "id" : 15,
+    "name" : "Tablette",
+    "type" : "Type de machine"
+  },
+  {
+    "id" : 16,
+    "name" : "Smartphone",
+    "type" : "Type de machine"
+  }
+]
