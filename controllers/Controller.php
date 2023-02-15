@@ -1,6 +1,6 @@
 <?php
 //call User class
-require_once "model/User.php";
+require_once "models/User.php";
 //new class Controller
 class Controller {
   private $routes = [
